@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-
     int T;
     cin >> T;
     cout << setprecision(2) << fixed;

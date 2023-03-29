@@ -1,8 +1,8 @@
 T = int(input())
 
 for t in range(T):
-    D, N = map(lambda x: int(x), input().split(' '))
-    prices = map(lambda x: float(x), input().split(' '))
+    D, N = map(int, input().split(' '))
+    prices = map(float, input().split(' '))
 
     maxChange = 0
     for price in prices:
